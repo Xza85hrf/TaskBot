@@ -1,0 +1,28 @@
+[
+    {
+        "type": "click",
+        "position": [100, 200],
+        "description": "Open browser"
+    },
+    {
+        "type": "wait",
+        "duration": 2
+    },
+    {
+        "type": "click",
+        "position": [300, 400],
+        "description": "Click on address bar"
+    },
+    {
+        "type": "hotkey",
+        "keys": ["ctrl", "v"]
+    },
+    {
+        "type": "wait",
+        "duration": 1
+    },
+    {
+        "type": "hotkey",
+        "keys": ["enter"]
+    }
+]

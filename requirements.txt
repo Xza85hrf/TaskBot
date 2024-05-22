@@ -1,0 +1,3 @@
+tkinter
+pyautogui
+sv_ttk
