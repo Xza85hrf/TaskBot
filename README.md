@@ -2,17 +2,14 @@
 
 # TaskBot
 
-TaskBot is a task automation tool built using Python and tkinter. It provides a graphical user interface (GUI) for scripting and executing automated actions such as mouse clicks, keystrokes, and more. The tool is available in two versions: Basic and Advanced, catering to different user needs and complexity levels.
+TaskBot is a task automation tool built using Python and tkinter. It provides a graphical user interface (GUI) for scripting and executing automated actions such as mouse clicks, keystrokes, and more.
 
 ## Features
 
-**TaskBot_Basic**:
+**TaskBot**:
 - Load and execute actions from a JSON file.
 - Basic GUI for action management.
 - Execute automated tasks like mouse clicks, keyboard actions, etc.
-
-**TaskBot_Advanced**:
-- All features of the Basic version.
 - Ability to save and manage actions in a JSON file through the GUI.
 - Enhanced error handling and validation of user inputs.
 
@@ -35,19 +32,14 @@ pip install -r requirements.txt
 
 ```
 Usage
-Navigate to either the Basic or Advanced version directory and run the main script:
+Navigate to the main directory and run the main script:
 
-For TaskBot_Basic:
+For TaskBot:
 ```bash
-cd TaskBot_Basic
-python TaskBot_Basic.py
+cd TaskBot
+python TaskBot.py
 ```
-For TaskBot_Advanced:
-```bash
-cd TaskBot_Advanced
-python TaskBot_Advanced.py
 
-```
 Configuration
 Actions are defined in a JSON file format. Here’s a sample configuration:
 ```json
